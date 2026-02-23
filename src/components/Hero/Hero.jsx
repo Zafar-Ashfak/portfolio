@@ -22,7 +22,17 @@ function Hero() {
 
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Frontend Developer", "React.js Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = [
+    "Java Backend Engineer",
+    "Spring Boot & JPA",
+    "REST API Developer",
+    "Microservices Architecture",
+    "Scalable API Design", 
+    "Frontend Engineer",
+    "React.js Developer",
+    "Web Designer",
+    "UI/UX Focused"
+  ];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
