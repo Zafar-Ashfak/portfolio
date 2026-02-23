@@ -16,8 +16,8 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMark} skill="Java" />
         <SkillList src={checkMark} skill="Spring Boot" />
-        <SkillList src={checkMark} skill="REST API Development" />
-        <SkillList src={checkMark} skill="Microservices Architecture" />
+        <SkillList src={checkMark} skill="RESTful APIs" />
+        <SkillList src={checkMark} skill="Microservices" />
         <SkillList src={checkMark} skill="JPA & Hibernate" />
         <SkillList src={checkMark} skill="Spring Security" />
       </div>
@@ -26,7 +26,7 @@ function Skills() {
       {/* Security & Architecture */}
       <div className={styles.skillList}>
         <SkillList src={checkMark} skill="JWT Authentication" />
-        <SkillList src={checkMark} skill="Role-Based Access Control (RBAC)" />
+        <SkillList src={checkMark} skill="RBAC" />
         <SkillList src={checkMark} skill="BCrypt Encryption" />
         <SkillList src={checkMark} skill="DTO Design Pattern" />
         <SkillList src={checkMark} skill="Layered Architecture" />
@@ -48,7 +48,7 @@ function Skills() {
         <SkillList src={checkMark} skill="JavaScript (ES6+)" />
         <SkillList src={checkMark} skill="React.js" />
         <SkillList src={checkMark} skill="Tailwind CSS" />
-        <SkillList src={checkMark} skill="Figma (UI Design Basics)" />
+        <SkillList src={checkMark} skill="Figma" />
       </div>
       <hr />
 
@@ -65,7 +65,7 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMark} skill="Docker" />
         <SkillList src={checkMark} skill="CI/CD Pipelines" />
-        <SkillList src={checkMark} skill="AWS (Basics)" />
+        <SkillList src={checkMark} skill="AWS" />
       </div>
       <hr />
 

@@ -55,6 +55,7 @@
   }
 }
 
+
 .name {
   color: dodgerblue;
   font-weight: 400;
@@ -76,6 +77,7 @@
 
 .description {
   max-width: 30ch;
+  font-size: 19px;
 }
 
 .info {
@@ -109,6 +111,6 @@
   }
 
   .name {
-    margin-right: 260px;
+    margin-right: 275px;
   }
 }

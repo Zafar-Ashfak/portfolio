@@ -24,10 +24,10 @@ function Hero() {
   const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = [
     "Java Backend Engineer",
-    "Spring Boot & JPA",
-    "REST API Developer",
+    "Spring Boot Developer",
+    "RESTful API Developer",
     "Microservices Architecture",
-    "Scalable API Design", 
+    "Scalable API Designer", 
     "Frontend Engineer",
     "React.js Developer",
     "Web Designer",
@@ -95,8 +95,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for building scalable and secure Java backend systems for enterprise applications.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
