@@ -1,10 +1,27 @@
-<h1> Hi, I'm Md Ashfak Alam</h1>
-🚀 Front-End Developer | React.js Developer
+<h1>Hi, I'm Md Ashfak Alam</h1>
+🚀 Java Backend Developer
 
 <h2>About Me</h2>
-I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, React.js, and Tailwind CSS. I love creating sleek, responsive, and user-friendly web experiences.
+As a Java Backend Developer, I build production-ready systems focused on scalability, security, and performance. With deep expertise in Spring Boot, REST architecture, and microservices design, I develop reliable backend infrastructures for modern applications.
 
-🔧<h2> Tech Stack</h2>
-Frontend: React.js and Vanilla CSS 
+Complementing my backend strength, I develop dynamic and user-centric frontends with React.js, enabling complete end-to-end solution delivery.
+
+<h2>Tech Stack</h2>
+
+🔹 <strong>Backend:</strong> Java, Spring Boot, Spring Security, JPA & Hibernate, REST API Development, Microservices, JWT Authentication, RBAC, DTO Pattern, BCrypt Encryption
+
 <br/>
-Tools & Platforms: Git, GitHub, VS Code, Figma
+
+🔹 <strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS
+
+<br/>
+
+🔹 <strong>Database:</strong> PostgreSQL, MySQL, MongoDB
+
+<br/>
+
+🔹 <strong>DevOps & Cloud:</strong> Docker, CI/CD Pipelines, AWS (Basics)
+
+<br/>
+
+🔹 <strong>Tools:</strong> Git, GitHub, Maven, Postman, Swagger (OpenAPI), Lombok, Figma
