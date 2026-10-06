@@ -12,32 +12,45 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Technical Skills</h1>
 
-      {/* Backend Development */}
+      {/* Programming Languages & Libraries and Generative AI */}
       <div className={styles.skillList}>
-        <SkillList src={checkMark} skill="Java" />
-        <SkillList src={checkMark} skill="Spring Boot" />
-        <SkillList src={checkMark} skill="RESTful APIs" />
-        <SkillList src={checkMark} skill="Microservices" />
-        <SkillList src={checkMark} skill="JPA & Hibernate" />
-        <SkillList src={checkMark} skill="Spring Security" />
+        <SkillList src={checkMark} skill="Python" />
+        <SkillList src={checkMark} skill="NumPy" />
+        <SkillList src={checkMark} skill="Pandas" />
+        <SkillList src={checkMark} skill="Generative AI" />
+        <SkillList src={checkMark} skill="Large Language Models (LLMs)" />
       </div>
       <hr />
 
-      {/* Security & Architecture */}
+      {/* RAG & AI Applications */}
       <div className={styles.skillList}>
-        <SkillList src={checkMark} skill="JWT Authentication" />
-        <SkillList src={checkMark} skill="RBAC" />
-        <SkillList src={checkMark} skill="BCrypt Encryption" />
-        <SkillList src={checkMark} skill="DTO Design Pattern" />
-        <SkillList src={checkMark} skill="Layered Architecture" />
+        <SkillList src={checkMark} skill="Prompt Engineering" />
+        <SkillList src={checkMark} skill="Hugging Face" />
+        <SkillList src={checkMark} skill="RAG" />
+        <SkillList src={checkMark} skill="LangChain" />
+        <SkillList src={checkMark} skill="Vector Databases" />
+        <SkillList src={checkMark} skill="Embeddings" />
       </div>
       <hr />
 
-      {/* API & Documentation */}
+      {/* AI Applications */}
       <div className={styles.skillList}>
-        <SkillList src={checkMark} skill="Swagger / OpenAPI" />
-        <SkillList src={checkMark} skill="Postman" />
+        <SkillList src={checkMark} skill="Semantic Search" />
+        <SkillList src={checkMark} skill="AI Agents" />
+        <SkillList src={checkMark} skill="OpenAI API" />
+        <SkillList src={checkMark} skill="ChromaDB" />
+        <SkillList src={checkMark} skill="Streamlit" />
+      </div>
+      <hr />
+
+      {/* Backend & APIs */}
+      <div className={styles.skillList}>
+        <SkillList src={checkMark} skill="REST APIs" />
+        <SkillList src={checkMark} skill="FastAPI" />
         <SkillList src={checkMark} skill="JSON" />
+        <SkillList src={checkMark} skill="SQL" />
+        <SkillList src={checkMark} skill="PostgreSQL" />
+
       </div>
       <hr />
 
@@ -52,29 +65,13 @@ function Skills() {
       </div>
       <hr />
 
-      {/* Database */}
-      <div className={styles.skillList}>
-        <SkillList src={checkMark} skill="SQL" />
-        <SkillList src={checkMark} skill="PostgreSQL" />
-        <SkillList src={checkMark} skill="MySQL" />
-        <SkillList src={checkMark} skill="MongoDB" />
-      </div>
-      <hr />
-
-      {/* DevOps & Cloud */}
+      {/* DevOps & Development Tools */}
       <div className={styles.skillList}>
         <SkillList src={checkMark} skill="Docker" />
-        <SkillList src={checkMark} skill="CI/CD Pipelines" />
-        <SkillList src={checkMark} skill="AWS" />
-      </div>
-      <hr />
-
-      {/* Tools & Build Systems */}
-      <div className={styles.skillList}>
         <SkillList src={checkMark} skill="Git" />
         <SkillList src={checkMark} skill="GitHub" />
-        <SkillList src={checkMark} skill="Maven" />
-        <SkillList src={checkMark} skill="Lombok" />
+        <SkillList src={checkMark} skill="CI/CD" />
+        <SkillList src={checkMark} skill="AWS" />
       </div>
     </section>
   );

@@ -22,16 +22,17 @@ function Hero() {
 
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [
-    "Java Backend Engineer",
-    "Spring Boot Developer",
-    "RESTful API Developer",
-    "Microservices Architecture",
-    "Scalable API Designer", 
-    "Frontend Engineer",
-    "React.js Developer",
-    "Web Designer",
-    "UI/UX Focused"
+  const toRotate = [
+    "Generative AI Engineer",
+    "RAG Applications",
+    "AI Agents",
+    "Agentic AI",
+    "LLMs",
+    "Prompt Writing",
+    "LangChain",
+    "LangGraph",
+    "React.js",
+    "Frontend Development"
   ];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -42,7 +43,7 @@ function Hero() {
       tick();
     }, delta);
 
-    return () => { clearInterval(ticker)};
+    return () => { clearInterval(ticker) };
   }, [text])
 
   const tick = () => {
@@ -52,7 +53,7 @@ function Hero() {
     setText(updateText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2)  
+      setDelta(prevDelta => prevDelta / 2)
     }
 
     if (!isDeleting && updateText === fullText) {
@@ -80,13 +81,13 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <p className={styles.name}>Hi, I am</p>
+        <p className={styles.intro}>Hi, I am</p>
         <h1>Md Ashfak Alam</h1>
         <h2 className='wrap'>{text}</h2>
         <span>
           <a href="https://linkedin.com/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
-          </a> 
+          </a>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
@@ -95,7 +96,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for building scalable and secure Java backend systems for enterprise applications.
+          <p className={styles.description}>
+            Passionate about building scalable Generative AI and Agentic AI applications using LLMs, RAG, AI Agents, LangChain, and LangGraph, with a focus on practical, production-ready solutions.
+
+          </p>
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
